@@ -1,0 +1,14 @@
+{
+  "require": {
+    "filp/whoops": "^2.2",
+    "Symfony/Console": "^4.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Lib\\": "lib/"
+    },
+    "files": [
+      "helpers.php"
+    ]
+  }
+}
