@@ -25,7 +25,7 @@ Swoole\Network\Server::start(function () {
      * 注册一个自定义的命名空间到SOA服务器
      * 默认使用 apps/classes
      */
-/*    $AppSvr->addNameSpace('BL', __DIR__ . '/class');*/
+    $AppSvr->addNameSpace('BL', __DIR__ . '/apps/classes');
 
 
     /**
